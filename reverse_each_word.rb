@@ -1,3 +1,4 @@
 def everse_each_word(str)
   array = str.split
-  array.sort_
+  array.each {|word| word.reverse}
+end
