@@ -5,6 +5,7 @@ end
 
 def reverse_each_word(str)
   array = str.split
-  array.collect{ |word| word.reverse.to_str.concat}
+  reversed = array.collect{ |word| word.reverse}
+  puts reversed
 
 end
