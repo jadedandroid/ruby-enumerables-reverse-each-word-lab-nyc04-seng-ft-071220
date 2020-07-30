@@ -1,10 +1,10 @@
 def reverse_each_word(str)
   array = str.split
-  array.each {|word| word.reverse.to_s}
+  array.each {|word| word.reverse.to_str}
 end
 
 def reverse_each_word(str)
   array = str.split
-  array.collect{ |word| word.reverse.to}
+  array.collect{ |word| word.reverse.to_str}
 
 end
